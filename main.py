@@ -1,8 +1,6 @@
 
 import numpy as np
 
-
-
 #normalde iki listeyiçarpabilmek için dışarda boş bir liste ve iki for döngüsü ile bu iki listeni
 #bütün elemanlarını gezmek, ardından çarpıp diğer listeye eklemek gerekiyor
 #yapıyor olmamız gerekir
@@ -40,7 +38,6 @@ np.random.normal(10, 4, (3, 4))
 #Veri bilimi alanında yaygın kullanımda sıfırdan bir array oluşturularak üzerinde çalışılmaz
 #Veriler dönüştürülerek arrayler elde edilir ve bunların üzerinde işlemler yapılır.
 
-
 ###################################
 # NUMPY Array Özellikleri
 ###################################
@@ -65,7 +62,7 @@ a.dtype  #dtype('int32')
 # Yeniden Şekillendirme (Reshaping)
 ###################################
 
-#elimizdeki bir numpy array2nin boyutunu değiştirmek istediğimizde  reshape metodunu kullanırız
+#elimizdeki bir numpy array'in boyutunu değiştirmek istediğimizde  reshape metodunu kullanırız
 
 ar = np.random.randint(1, 10, size=9)
 ar.reshape(3,3)
@@ -105,7 +102,7 @@ m[2, 3] = 3.9   #2. satır 3.sütundaki değer 2.9'a eşitlendi
 #python bize derki; ben tek tipte veri saklarım, diğer indexlerdeki değerleri tipi ne ise
 #bana verilen değişkenide ilgili tipe çeviririm
 
-#Python'ın hızlı çalışma prensibinin ilk kuralı
+#Bu Python'ın hızlı çalışma prensibinin ilk kuralıdır
 
 m[:, 0]     #bütün satırları seç, 0. sutunu seç
 m[1, :]     #1. satır bütün sutunları seç
@@ -182,7 +179,7 @@ v[v >= 3 ]   #array([3, 4, 5])
 ###################################
 
 
-#NumPy'da bun yapmak vektörel işlemler kadar kolaydır
+#NumPy'da bunu yapmak vektörel işlemler kadar kolaydır
 
 v = np.array([1, 2, 3, 4, 5])
 v / 5    #tüm elemanları gezer, 5'e böler ve numPy formunda geri döndürür
@@ -214,7 +211,7 @@ np.var(v)            #2.0
 
 #Numpy  değişkenlerin katsayılarını belirli bir yapıda gönderirsen bunları çözebilirim der
 
-a = np.array([5,1], [1,3])    #ilk denklemde (birinci değişkenin katsayısı, ikinci değişkenin katsayısı), ikinci denklenmde (birinci değğişkenin katsayısı, ikinci değişkenin katsayısı)
+a = np.array([5,1], [1,3])    #ilk denklemde (birinci değişkenin katsayısı, ikinci değişkenin katsayısı), ikinci denklenmde (birinci değişkenin katsayısı, ikinci değişkenin katsayısı)
 b = np.array([12,10])         #sonuçlar
 
 np.linalg.solve(a,b)
