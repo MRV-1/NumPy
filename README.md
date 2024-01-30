@@ -1,7 +1,7 @@
 Bu script NumPy dünyasına hızlı bir bakış için oluşturulmuştur. ☀ 
 
 
-# NUMPY
+# NUMPY 🚀🚀🚀
 
 * NumPy Array'i Oluşturmak
 * NumPy Array Özellikleri
