@@ -1,8 +1,8 @@
-Bu script'ten veri bilimi yeni giriş yapanlar için üretilmiştir.
-***********************************
-* NumPy
-************************************
-# Neden NumPy ?
+Bu script NumPy dünyasına hızlı bir bakış için oluşturulmuştur.
+
+###################################
+# NUMPY'A GİRİŞ
+###################################
 # NumPy Array'i Oluşturmak
 # NumPy Array Özellikleri
 # Yeniden Şekillendirme
@@ -11,6 +11,9 @@ Bu script'ten veri bilimi yeni giriş yapanlar için üretilmiştir.
 # Fancy Index
 # Numpy'da Koşullu İşlemler
 # Matematiksel İşlemler
+
+
+
 
 Yukarıdaki başlıklardan ve altında bu başlıklara ait giriş seviye işlemler barındırmaktadır.
 Array'ler ile sık sık uğraşılan veri biliminde neden NumPy tercih edilmelidir ?
